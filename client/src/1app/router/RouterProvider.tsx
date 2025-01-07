@@ -7,16 +7,16 @@ import CartPage from '../../2pages/CartPage/CartPage';
 import CheckoutPage from '../../2pages/CheckoutPage/CheckoutPage';
 import OneProductPage from '../../2pages/OneProductPage/OneProductPage';
 
-
 export default function RouterProvider() {
-    return (
-        <Routes>
-          <Route element={<Layout />}>
-            <Route path="/" element={<ProductsPage />} />
-            <Route path="/orders" element={<OrdersPage />} />
-            <Route path="/cart" element={<CartPage />} />
-            <Route path="/checkout" element={<CheckoutPage />} />
-            <Route path="/products/:productId" element={< OneProductPage />} /></Route>
-        </Routes>
-      );
+  return (
+    <Routes>
+      <Route element={<Layout />}>
+        <Route path="/" element={<ProductsPage />} />
+        <Route path="/orders" element={<OrdersPage />} />
+        <Route path="/cart" element={<CartPage />} />
+        <Route path="/checkout" element={<CheckoutPage />} />
+        <Route path="/products/:productId" element={<OneProductPage />} />
+      </Route>
+    </Routes>
+  );
 }

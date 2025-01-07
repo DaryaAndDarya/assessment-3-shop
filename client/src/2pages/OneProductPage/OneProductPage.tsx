@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button, Col, Container, Row } from 'react-bootstrap';
 import * as styles from './styles';
-import MOCK_PRODUCTS from '../../mocks/products';
+import MOCK_PRODUCTS from '../../5entities/products/model/products';
 
 export default function OneProductPage(): React.JSX.Element {
   const product = MOCK_PRODUCTS[0];

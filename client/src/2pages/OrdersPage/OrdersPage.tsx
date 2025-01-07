@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card, Col, Container, Row } from 'react-bootstrap';
-import MOCK_ORDERS from '../../mocks/orders';
+import MOCK_ORDERS from '../../5entities/orders/model/orders';
 
 export default function OrdersPage(): React.JSX.Element {
   return (

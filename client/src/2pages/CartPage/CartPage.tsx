@@ -2,7 +2,7 @@ import React from 'react';
 import { Button, Card, Col, Container, Row } from 'react-bootstrap';
 import { useNavigate } from 'react-router';
 import CartProductCard from '../../4features/CartProductCard/CartProductCard';
-import MOCK_PRODUCTS from '../../mocks/products';
+import MOCK_PRODUCTS from '../../5entities/products/model/products';
 
 export default function CartPage(): React.JSX.Element {
   const navigate = useNavigate();
