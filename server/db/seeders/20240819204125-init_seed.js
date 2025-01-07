@@ -51,7 +51,7 @@ module.exports = {
         price: 695,
         description:
           "From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean's pearl. Wear facing inward to be bestowed with love and abundance, or outward for protection.",
-        image: '"/img/womenDr.jpg"',
+        image: '/img/womenDr.jpg',
       },
       {
         name: 'Mens Casual Slim Fit',
